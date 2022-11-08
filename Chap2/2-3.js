@@ -6,7 +6,8 @@
  */
 
   //Pseudocode:
-  //-copy the data of next of given node into given node, then get rid of next node
+  //-copy the data of next of given node into given node,
+  //then get rid of next node
   class Node {
     constructor (val = null) {
       this.val = val;
@@ -20,4 +21,3 @@
     node.next = node.next.next;
   }
 
-  
